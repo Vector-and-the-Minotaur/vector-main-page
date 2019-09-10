@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/header.js'; 
+import Navigation from './components/navbar.js'
+import Footer from './components/footer.js';
+import Text from './components/text.js'; 
+import Video from './components/video.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Header/>
+     <Navigation/>
+     <Text text='Create a custom protocal using the Anki Vector SDK that will allow a Vector Robot to programatically solve a maze.' header='The Project'/>
+     <Video source='assets/blackstarshort.mp4'/>
+     <Footer/>
     </div>
   );
 }
