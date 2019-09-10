@@ -5,10 +5,10 @@ class Navigation extends Component {
   render(){
     return(
       <>
-      <ul>
+      <ul className='nav'>
       <NavLink text='About Us' link=''/>
       <NavLink text='Git Hub' link='https://github.com/Vector-and-the-Minotaur' /> 
-     <NavLink text='Anki Vector API' link='https://developer.anki.com/vector/docs/index.html'/> 
+      <NavLink text='Anki Vector API' link='https://developer.anki.com/vector/docs/index.html'/> 
      </ul>
      </>
     )
