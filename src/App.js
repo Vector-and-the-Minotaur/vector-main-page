@@ -12,7 +12,7 @@ function App() {
      <Header/>
      <Navigation/>
      <Text text='Create a custom protocal using the Anki Vector SDK that will allow a Vector Robot to programatically solve a maze.' header='The Project'/>
-     <Video source='./test.mp4'/>
+     <Video source='assets/blackstarshort.mp4'/>
      <Footer/>
     </div>
   );

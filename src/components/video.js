@@ -12,7 +12,7 @@ class Video extends Component{
   render(){
     return(
       <>
-     <video controls='controls' controlslist='nodownload' width="512" height='288' src='assets/blackstar.mp4'/>
+     <video controls='controls' controlslist='nodownload' width="512" height='288' src={this.props.source}/>
       </>
     )
   }
