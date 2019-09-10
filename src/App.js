@@ -9,8 +9,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Navigation ClassName='nav'/>
+     <Header />
+     <Navigation className='nav'/>
      <Text text='Create a custom protocal using the Anki Vector SDK that will allow a Vector Robot to programatically solve a maze.' header='The Project'/>
      <Video source='assets/blackstarshort.mp4'/>
      <Footer/>

@@ -12,7 +12,9 @@ class Video extends Component{
   render(){
     return(
       <>
-     <video controls='controls' controlslist='nodownload' width="512" height='288' src={this.props.source}/>
+      <div class="videoWrapper">
+     <video className='video' controls='controls' controlslist='nodownload' width="512" height='288' src={this.props.source}/>
+     </div>
       </>
     )
   }

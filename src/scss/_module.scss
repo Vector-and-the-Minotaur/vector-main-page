@@ -1,36 +1,36 @@
-.nav{
-
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-    background: $black;
-    color: $gold;
- 
-}
 
 a {
-    font-family: 'Orbitron', sans-serif;
+    font-family: $font_std;
     text-decoration: none;
     padding: 6px 6px 6px 32px;
     text-decoration: none;
     font-size: 25px;
-    display: block;
+    display: inline-block;
+    margin: 10px;
   }
 
   .nav a:hover {
-    color: #f1f1f1;
+    color: $white;
   }
 
   .nav a:visited{
-      color: $gold;
+      color: #926f34;
+  }
+
+  .header{
+    border-bottom: 1mm solid $gold;
+    background-color: $white;
+    color: $gold;
+    height: 200px;
+    margin-top: 0;
+    font-size: 500%;
   }
   
+  .video{
+
+    margin: 25px;
+
+}
 
   
   

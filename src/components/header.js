@@ -6,7 +6,8 @@ class Header extends Component {
     return(
       <>
      <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"></link>
-      <section className="Header">
+     
+      <section className="header">
         <h1 className='title'> Vector and the Minotaur
 
         </h1>
