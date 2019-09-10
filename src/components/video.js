@@ -1,30 +1,21 @@
-import React, { Component } from 'react'; 
-import { Player } from 'video-react';
+import React, { Component } from 'react'
 
-class Video extends Component {
+class Video extends Component{
 
   constructor(props){
     super(props); 
     this.state = {
-      poster: props.poster,
-      source: props.source
+      source: props.source,
     }
   }
 
   render(){
-
     return(
       <>
-      <Player>
-        playsInLine
-        poster={this.state.poster}
-        src={this.state.source}
-      </Player>
+     <video controls='controls' controlslist='nodownload' width="512" height='288' src='assets/blackstar.mp4'/>
       </>
     )
-
   }
-
 }
 
-export default Video; 
+export default Video

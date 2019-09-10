@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './components/header.js'; 
 import Navigation from './components/navbar.js'
 import Footer from './components/footer.js';
+import Text from './components/text.js'; 
+import Video from './components/video.js';
 import './App.css';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
     <div className="App">
      <Header/>
      <Navigation/>
+     <Text text='Create a custom protocal using the Anki Vector SDK that will allow a Vector Robot to programatically solve a maze.' header='The Project'/>
+     <Video source='./test.mp4'/>
      <Footer/>
     </div>
   );

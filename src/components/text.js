@@ -1,5 +1,5 @@
 import React, { Component } from 'react' 
-import TextHeader from 'textHeader.js'
+import TextHeader from './textHeader.js'
 
 
 class Text extends Component {
@@ -15,7 +15,7 @@ class Text extends Component {
 
     return(
       <>
-      <TextHeader text={this.state.header}/>
+      {/* <TextHeader text={this.state.header}/> */}
       <section className="TextBox">
         {this.state.text}
       </section>
