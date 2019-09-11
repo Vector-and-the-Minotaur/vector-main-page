@@ -1,0 +1,32 @@
+
+a {
+    font-family: $font_std;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+
+  .nav a:hover {
+    color: $white;
+  }
+
+  .nav a:visited{
+      color: #926f34;
+  }
+
+  .header{
+    border-bottom: 1mm solid $gold;
+    background-color: $white;
+    color: $gold;
+    font-size: 500%;
+  }
+  
+  .video{
+    border: 1mm solid $gold;
+    margin: 25px;
+
+}
+
+  
+  
