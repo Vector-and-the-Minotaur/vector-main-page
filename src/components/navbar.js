@@ -4,8 +4,8 @@ import NavLink from './navLinks'
 class Navigation extends Component {
   render(){
     return(
-      <div>
-      <ul className='nav'>
+      <div className='nav'> 
+      <ul>
       <li>
       <NavLink text='About Us' link=''/>
       </li>

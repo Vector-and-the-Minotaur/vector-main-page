@@ -14,9 +14,9 @@ class Text extends Component {
   render(){
 
     return(
-      <div>
+      <div className="TextBox"> 
       {/* <TextHeader text={this.state.header}/> */}
-      <section className="TextBox">
+      <section>
         {this.state.text}
       </section>
       </div>

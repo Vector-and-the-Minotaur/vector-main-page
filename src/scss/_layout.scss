@@ -18,61 +18,74 @@
 
 
 .App{
-    height: 700px;
-    width: 900px;
+
     box-sizing: border-box;
     border: 2px purple solid;
-}
-
-
-.header{
-    height: 20%;
-    width: 80%;
-    margin-top: 0;
-    order: 2;
-    float: right;
-    box-sizing: border-box;
-    border: 2px red solid;
-}
-
-.TextBox{
-    height: 70%;
-    width: 80%;
-    box-sizing: border-box;
-    border: 2px blue solid;
-    float: right;
-
-}
-
-.videoWrapper{
-    width: 80%;
-    box-sizing: border-box;
-    border: 2px green solid;
-    float: right;
-
+    display: grid;
+    grid-template-areas:
+    'navbar headbar headbar headbar headbar'
+    'navbar textbar textbar textbar textbar'
+    'navbar vid vid vid vid'
+    'navbar vid vid vid vid'
+    'navbar footbar footbar footbar footbar'
+    ;
 }
 
 .nav{
-    height: 700px;
+    // height: 900px;
     // height: 500px;
-    width: 20%;
+    // width: 20%;
     box-sizing: border-box;
     border: 2px black solid;
-    float: left;
+    grid-area: navbar;
+
+    // float: left;
 }
 
-a{
+.header{
+    // height: 20%;
+    // width: 80%;
+    // // margin-top: 0;
+    // float: right;
+    box-sizing: border-box;
+    border: 2px red solid;
+    grid-area: headbar;
+    // padding: 5%;
+}
+
+.TextBox{
+    // height: 20%;
+    // width: 80%;
+    box-sizing: border-box;
+    border: 2px blue solid;
+    // float: right;
+    grid-area: textbar;
+    padding: 5%;
+}
+
+.wrapper{
+    // width: 80%;
+    // height: 50%;
+    box-sizing: border-box;
+    border: 2px green solid;
+    grid-area: vid;
+}
+
+
+li{
     padding: 6px 6px 6px 32px;
     display: block;
     box-sizing: border-box;
     border: 2px black solid;
-    margin: 5%;
+    // margin: 5%;
 }
 
 .footer{
-    height: 10%;
-    width: 80%;
+    // height: 10%;
+    // width: 80%;
     box-sizing: border-box;
     border: 2px black solid;
-    float: right;
+    // float: right;
+    // padding: 24px;
+    grid-area: footbar;
 }
