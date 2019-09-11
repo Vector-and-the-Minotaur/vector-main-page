@@ -14,12 +14,12 @@ class Text extends Component {
   render(){
 
     return(
-      <>
+      <div>
       {/* <TextHeader text={this.state.header}/> */}
       <section className="TextBox">
         {this.state.text}
       </section>
-      </>
+      </div>
     )
 
   }

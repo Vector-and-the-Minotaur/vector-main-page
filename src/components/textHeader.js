@@ -11,11 +11,11 @@ class TextHeader extends Component{
 
   render(){
     return(
-      <>
+      <div>
       <h2>
         {this.state.text}
       </h2>
-      </>
+      </div>
     )
   }
 }

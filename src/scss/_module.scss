@@ -2,11 +2,9 @@
 a {
     font-family: $font_std;
     text-decoration: none;
-    padding: 6px 6px 6px 32px;
     text-decoration: none;
     font-size: 25px;
-    display: inline-block;
-    margin: 10px;
+    
   }
 
   .nav a:hover {
@@ -21,13 +19,11 @@ a {
     border-bottom: 1mm solid $gold;
     background-color: $white;
     color: $gold;
-    height: 200px;
-    margin-top: 0;
     font-size: 500%;
   }
   
   .video{
-
+    border: 1mm solid $gold;
     margin: 25px;
 
 }

@@ -4,7 +4,7 @@ import App from '../App'
 class Header extends Component {
   render (){
     return(
-      <>
+      <div>
      <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"></link>
      
       <section className="header">
@@ -12,7 +12,7 @@ class Header extends Component {
 
         </h1>
       </section>
-      </>
+      </div>
     )
   }
 
