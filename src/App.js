@@ -4,12 +4,14 @@ import Navigation from './components/navbar.js'
 import Footer from './components/footer.js';
 import Text from './components/text.js'; 
 import Video from './components/video.js';
+import Logo from './components/logo.js'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
      <Header />
+     <Logo/>
      <Navigation className='nav'/>
      <Text text='Create a custom protocal using the Anki Vector SDK that will allow a Vector Robot to programatically solve a maze.' header='The Project'/>
      <Video source='assets/blackstarshort.mp4'/>
