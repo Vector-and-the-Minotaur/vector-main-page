@@ -21,7 +21,7 @@
         box-sizing: border-box;
         display: grid;
         grid-template-areas:
-        'navbar headbar headbar headbar headbar'
+        'logobar headbar headbar headbar headbar'
         'navbar textbar textbar textbar textbar'
         'navbar vid vid vid vid'
         'navbar vid vid vid vid'
@@ -34,6 +34,7 @@
         border-right: 2px solid #0F0E0E;
         grid-area: navbar;
         box-shadow: 1px 0px 0.5px 0px $grey;  
+        // margin-top: 100%;
     }
 }
 
@@ -79,7 +80,7 @@ padding: 5%;
 @media only screen and (min-width: 600px) {
     .logo{
         box-sizing: border-box; 
-        grid-area: navbar;  
+        grid-area: logobar;  
         
     }
 

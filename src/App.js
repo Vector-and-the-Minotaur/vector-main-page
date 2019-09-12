@@ -5,6 +5,7 @@ import Footer from './components/footer.js';
 import Text from './components/text.js'; 
 import Video from './components/video.js';
 import Logo from './components/logo.js'
+import Home from './components/home.js'
 import './App.css';
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
      <Text  text='Robot ipsum Pseudopoietic efodon anteeous stethgraphy unilepry. Laparolog palladiocene schizoate mastped tocoalgia videoaria hecatocade norpathy frontoicide. Frankengamy bilog sylathon Angloeous Ofpoieses saprware platythermy histics. Ophidgynous cytolepry nitrophagous millimorph stibiocarpic adenicide xanthism stereoid Britphobia glossochrome. Racegony toxicophagia melaphobic hieroian valerothermal polydeoxyriboscribe tessaraize Christotend. Gynaecoderma againmire Japanoopsida ototron quadriopsida bradyacea deciize otphagy. Tocoaemia azoane hydrode adrenocephalous tritoa angioblast oxiis'/>
      </div>
      <Footer/>
+
+
     </div>
   );
 }
