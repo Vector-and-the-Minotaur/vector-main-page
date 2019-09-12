@@ -1,47 +1,42 @@
 import React, {Component, Fragment} from 'react';
-import { browserHistory } from 'react-router';
-
-import placeholder from './profile_mages/placeholder150.png'
 
 import Profile from './profiles'
 
 class About extends Component{
-    componentDidMount(){
-        browserHistory.push('/about')
-    }
+
     render(){
         return(
-            <div>
+            <div className='about-div'>
                 <Profile
-                img={placeholder}
+                className="Alex"
                 name="Alex Reid"
-                description="Robot ipsum Pseudopoietic efodon anteeous stethgraphy unilepry. Laparolog palladiocene schizoate mastped "
-                github="https://github.com/"
+                description="Robot ipsum Pseudopoietic efodon Robot ipsum Pseudopoietic efodon Robot ipsum Pseudopoietic efodon Robot ipsum Pseudopoietic efodon"
+                github="https://github.com/surfwalker"
                 linkedIn="https://www.linkedin.com/in/"
                 />
 
                 <Profile
-                img={placeholder}
+                className="Aliya"
                 name="Aliya Summers"
-                description="Robot ipsum Pseudopoietic efodon anteeous stethgraphy unilepry. Laparolog palladiocene schizoate mastped "
-                github="https://github.com/"
-                linkedIn="https://www.linkedin.com/in/"
+                description="Robot ipsum Pseudopoietic efodon "
+                github="https://github.com/arsummers"
+                linkedIn="https://www.linkedin.com/in/aliya-summers/"
                 />
 
                 <Profile
-                img={placeholder}
+                className="Merry"
                 name="Merry Cimakasky"
-                description="Robot ipsum Pseudopoietic efodon anteeous stethgraphy unilepry. Laparolog palladiocene schizoate mastped "
-                github="https://github.com/"
-                linkedIn="https://www.linkedin.com/in/"
+                description="Robot ipsum Pseudopoietic efodon"
+                github="https://github.com/MerrybyPractice"
+                linkedIn="https://www.linkedin.com/in/merrycimakasky/"
                 />
 
                 <Profile
-                img={placeholder}
+                className="Raven"
                 name="Raven Robertson"
-                description="Robot ipsum Pseudopoietic efodon anteeous stethgraphy unilepry. Laparolog palladiocene schizoate mastped "
-                github="https://github.com/"
-                linkedIn="https://www.linkedin.com/in/"
+                description="Software engineer with a passion for innovation, diversity and team driven success."
+                github="https://github.com/ravewillow6383"
+                linkedIn="https://www.linkedin.com/in/raven-robertson"
                 />  
             </div>
         )

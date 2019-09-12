@@ -11,6 +11,10 @@
     'navbar'
     'footbar'
     'logobar'
+    'alex'
+    'aliya'
+    'merry'
+    'raven'
     ;
 }
 
@@ -27,6 +31,10 @@
         'navbar vid vid vid vid'
         'navbar textbar2 textbar2 textbar2 textbar2'
         'navbar footbar footbar footbar footbar'
+        'navbar alex alex alex alex'
+        'navbar aliya aliya aliya aliya' 
+        'navbar merry merry merry merry' 
+        'navbar raven raven raven raven'
         ;
     }
     .nav{
@@ -34,7 +42,6 @@
         border-right: 2px solid #0F0E0E;
         grid-area: navbar;
         box-shadow: 1px 0px 0.5px 0px $grey;  
-        // margin-top: 100%;
     }
 }
 
@@ -64,6 +71,7 @@
 .logoImage{
 width: 25%; 
 margin-top: 5%; 
+border-right: 2px solid #0F0E0E;
 box-shadow: 1px 0px 5px 1px $grey; 
 border-radius: 4%;
 grid-area: logobar;  
@@ -76,6 +84,72 @@ grid-area: textbar;
 padding: 5%; 
 }
 
+.Alex{
+    box-sizing: border-box;
+    border: 1px black solid;
+    margin-top: 10%;
+    grid-area: alex;
+}
+
+.Aliya{
+    box-sizing: border-box;
+    border: 1px black solid;
+    margin-top: 5%;
+    grid-area: aliya;
+}
+
+.Merry{
+    box-sizing: border-box;
+    border: 1px black solid;
+    margin-top: 5%;
+    grid-area: merry;
+}
+
+.Raven{
+    box-sizing: border-box;
+    border: 1px black solid;
+    margin-top: 5%;
+    grid-area: raven;
+}
+
+@media only screen and (min-width: 600px){
+    .about-div{
+        padding: 5%;
+
+    }
+    .Alex{
+        box-sizing: border-box;
+        border: 1px black solid;
+        width: 400px;
+        margin-top: 10%;
+        width: 200%;
+        grid-area: alex;
+    }
+    
+    .Aliya{
+        box-sizing: border-box;
+        border: 1px black solid;
+        margin-top: 5%;
+        width: 200%;
+        grid-area: aliya;
+    }
+    
+    .Merry{
+        box-sizing: border-box;
+        border: 1px black solid;
+        margin-top: 5%;
+        width: 200%;
+        grid-area: merry;
+    }
+    
+    .Raven{
+        box-sizing: border-box;
+        border: 1px black solid;
+        margin-top: 5%;
+        width: 200%;
+        grid-area: raven;
+    }
+}
 
 @media only screen and (min-width: 600px) {
     .logo{
@@ -117,7 +191,7 @@ ul {
 }
 
 
-a {
+.navbarlink {
     display: inline-block;
     box-sizing: border-box;
     padding-top: 50%;
@@ -132,7 +206,7 @@ a {
 }
 
 @media only screen and (min-width: 600px){
-a {
+.navbarlink {
     display: block;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -143,9 +217,11 @@ a {
     width: 300%;
     margin-top: 50%;
 }
-a{
+
+.navbarlink {
     border: 2px solid $grey; 
 }
+
 }
 
 .footer{
@@ -153,3 +229,16 @@ a{
     grid-area: footbar;
     padding: 2%;
 }
+
+  .about-div{
+      margin-left: 10%;
+  }
+
+  .about-div div{
+   margin-right: 5%;
+   padding: 5%;
+  }
+
+  .about-div div h3, p{
+      padding-top: 1%;
+  }

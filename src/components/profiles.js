@@ -4,30 +4,21 @@ class Profile extends Component{
     render(){
         return(
             <Fragment> 
-
-                <img 
-                src={this.props.img}
-                alt={this.props.alt}
-                />
+                <div className={this.props.className}>
                 <h3>
                     {this.props.name}
                 </h3>
                 <p>
                     {this.props.description}
                 </p>
-                <a href={this.props.github}  
-                        id="icon-github" 
-                        target="_blank"
-                        >
-                        <i class="fab fa-github"></i>
-                    </a>
-
-                    <a href={this.props.linkedIn}
-                        id="icon-linkedin" 
-                        target="_blank"
-                        >
-                        <i class="fab fa-linkedin"></i>
-                    </a>
+                <p>
+                <a href={this.props.github}>Github </a>
+                </p>
+                <p>
+                <a href={this.props.linkedIn} > LinkedIn</a>  
+                </p>
+                
+                </div>
             </Fragment>
         )
             
