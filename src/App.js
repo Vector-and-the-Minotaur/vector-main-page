@@ -15,6 +15,9 @@ function App() {
      <Navigation className='nav'/>
      <Text text='Create a custom protocal using the Anki Vector SDK that will allow a Vector Robot to programatically solve a maze.' header='The Project'/>
      <Video source='assets/blackstarshort.mp4'/>
+     <div className='text2'>
+     <Text  text='Robot ipsum Pseudopoietic efodon anteeous stethgraphy unilepry. Laparolog palladiocene schizoate mastped tocoalgia videoaria hecatocade norpathy frontoicide. Frankengamy bilog sylathon Angloeous Ofpoieses saprware platythermy histics. Ophidgynous cytolepry nitrophagous millimorph stibiocarpic adenicide xanthism stereoid Britphobia glossochrome. Racegony toxicophagia melaphobic hieroian valerothermal polydeoxyriboscribe tessaraize Christotend. Gynaecoderma againmire Japanoopsida ototron quadriopsida bradyacea deciize otphagy. Tocoaemia azoane hydrode adrenocephalous tritoa angioblast oxiis'/>
+     </div>
      <Footer/>
     </div>
   );

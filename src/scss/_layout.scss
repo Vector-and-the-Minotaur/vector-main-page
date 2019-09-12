@@ -41,6 +41,7 @@
         'navbar textbar textbar textbar textbar'
         'navbar vid vid vid vid'
         'navbar vid vid vid vid'
+        'navbar textbar2 textbar2 textbar2 textbar2'
         'navbar footbar footbar footbar footbar'
         ;
     }
@@ -48,6 +49,7 @@
         box-sizing: border-box;
         border-right: 2px solid #0F0E0E;
         grid-area: navbar;
+        box-shadow: 1px 0px 0.5px 0px $grey;  
     }
 }
 
@@ -60,19 +62,26 @@
 
 .logo{
     box-sizing: border-box; 
-    grid-area: navbar; 
+    grid-area: navbar;  
+    
 }
 
 .logoImage{
     width: 85%; 
     margin-top: 5%; 
+    box-shadow: 1px 0px 5px 1px $grey; 
+    border-radius: 4%;
 }
 
 .TextBox{
     box-sizing: border-box;
     // border: 2px blue solid;
     grid-area: textbar;
-    padding: 5%;
+    padding: 5%; 
+}
+
+.text2{
+    grid-area: textbar2;  
 }
 
 .wrapper{

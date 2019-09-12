@@ -4,6 +4,7 @@ a {
     text-decoration: none;
     text-decoration: none;
     font-size: 72%;
+    box-shadow: 1px 0px 3px 0px $grey;  ;  
     
   }
 
@@ -16,17 +17,19 @@ a {
   }
 
   .header{
-    border-bottom: 1mm solid $gold;
+    border-bottom: 2px solid $black;
     background-color: $white;
     color: $gold;
     font-size: 500%;
+    box-shadow: 1px 0px 5px 1px $grey;  
   }
   
   .video{
     border: 1mm solid $gold;
     margin: 25px;
+    box-shadow: 1px 0px 5px 1px $grey;  
+  }
 
-}
 
   
   
