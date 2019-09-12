@@ -10,15 +10,15 @@ class About extends Component{
                 <Profile
                 className="Alex"
                 name="Alex Reid"
-                description="Robot ipsum Pseudopoietic efodon Robot ipsum Pseudopoietic efodon Robot ipsum Pseudopoietic efodon Robot ipsum Pseudopoietic efodon"
+                description="Scotsman in the new world expanding his brain and becoming Pythonic in the hope of solving the world's problems."
                 github="https://github.com/surfwalker"
-                linkedIn="https://www.linkedin.com/in/"
+                linkedIn="https://www.linkedin.com/in/alex-reid-2a4139104/"
                 />
 
                 <Profile
                 className="Aliya"
                 name="Aliya Summers"
-                description="Robot ipsum Pseudopoietic efodon "
+                description="Full stack Python engineer with a strong interest in diversity in tech, teamwork, genre fiction, and strange art projects."
                 github="https://github.com/arsummers"
                 linkedIn="https://www.linkedin.com/in/aliya-summers/"
                 />
@@ -26,7 +26,7 @@ class About extends Component{
                 <Profile
                 className="Merry"
                 name="Merry Cimakasky"
-                description="Robot ipsum Pseudopoietic efodon"
+                description="Engineer working primarily working in Python and Java knack for problem solving and an appreciate for art."
                 github="https://github.com/MerrybyPractice"
                 linkedIn="https://www.linkedin.com/in/merrycimakasky/"
                 />
