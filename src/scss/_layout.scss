@@ -25,6 +25,7 @@
     'textbar'
     'vid'
     'vid'
+    'textbar2'
     'navbar'
     'footbar'
     ;
@@ -41,74 +42,107 @@
         'navbar textbar textbar textbar textbar'
         'navbar vid vid vid vid'
         'navbar vid vid vid vid'
+        'navbar textbar2 textbar2 textbar2 textbar2'
         'navbar footbar footbar footbar footbar'
         ;
     }
     .nav{
         box-sizing: border-box;
-        border: 2px black solid;
+        border-right: 2px solid #0F0E0E;
         grid-area: navbar;
+        box-shadow: 1px 0px 0.5px 0px $grey;  
     }
 }
 
-
-
-
-
 .header{
     box-sizing: border-box;
-    border: 2px red solid;
+    // border: 2px red solid;
     grid-area: headbar;
     padding: 5%;
 }
 
+.logo{
+    box-sizing: border-box; 
+    grid-area: navbar;  
+    
+}
+
+.logoImage{
+    width: 85%; 
+    margin-top: 5%; 
+    box-shadow: 1px 0px 5px 1px $grey; 
+    border-radius: 4%;
+}
+
 .TextBox{
     box-sizing: border-box;
-    border: 2px blue solid;
+    // border: 2px blue solid;
     grid-area: textbar;
-    padding: 5%;
+    padding: 5%; 
+}
+
+.text2{
+    grid-area: textbar2;  
 }
 
 .wrapper{
     box-sizing: border-box;
-    border: 2px green solid;
+    // border: 2px green solid;
     grid-area: vid;
 }
 
-
-li {
-    display: inline-block;
-    box-sizing: border-box;
-    // border: 2px blue solid;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 5%;
-    padding-right: 5%; 
-    justify-self: center;
+ul {
+    margin: 0; 
+    padding: 0; 
+    width: 25%; 
+    grid-area: navbar; 
+    height: 100%;
+    margin-top: 117%; 
 }
 
+
+a {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-self: center;
+    width: 335%;
+    height: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+// a {
+//     box-sizing: border-box; 
+//     margin: 1%; 
+//     padding: 1%;
+// }
+
 @media only screen and (min-width: 600px){
-li{
+a {
     display: block;
     // box-sizing: border-box;
     // border: 2px blue solid;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
     padding-left: 5%;
     padding-right: 5%; 
     justify-self: center;
     height: 10%;
-    width: 10%;
-    margin-top: 25%;
+    width: 300%;
+    margin-top: 50%;
 }
 a{
-    font-size: 12px;
+    border: 2px solid $grey; 
 }
 }
 
 .footer{
     box-sizing: border-box;
-    border: 2px black solid;
+    // border: 2px black solid;
     grid-area: footbar;
     padding: 2%;
 }
