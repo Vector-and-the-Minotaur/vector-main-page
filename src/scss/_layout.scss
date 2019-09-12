@@ -1,22 +1,4 @@
 
-// .nav{
-
-//     height: 100%;
-//     width: 300px;
-//     position: fixed;
-//     z-index: 1;
-//     top: 0;
-//     left: 0;
-//     background-color: #111;
-//     overflow-x: hidden;
-//     padding-top: 20px;
-//     background: $black;
-//     color: white;
-//     border-right: 2mm solid $gold;
- 
-// }
-
-
 .App{
     box-sizing: border-box;
     display: grid;
@@ -28,6 +10,7 @@
     'textbar2'
     'navbar'
     'footbar'
+    'logobar'
     ;
 }
 
@@ -56,29 +39,62 @@
 
 .header{
     box-sizing: border-box;
-    // border: 2px red solid;
     grid-area: headbar;
     padding: 5%;
 }
 
+.nav{
+    grid-area: navbar;
+    padding-left: 15%;
+    margin-top: -100%;
+
+}
+.nav a{
+    padding-top: 5%;
+}
+
+
 .logo{
     box-sizing: border-box; 
-    grid-area: navbar;  
+    grid-area: logobar;  
     
 }
 
 .logoImage{
+width: 25%; 
+margin-top: 5%; 
+box-shadow: 1px 0px 5px 1px $grey; 
+border-radius: 4%;
+grid-area: logobar;  
+
+}
+
+.TextBox{
+box-sizing: border-box;
+grid-area: textbar;
+padding: 5%; 
+}
+
+
+@media only screen and (min-width: 600px) {
+    .logo{
+        box-sizing: border-box; 
+        grid-area: navbar;  
+        
+    }
+
+    .logoImage{
     width: 85%; 
     margin-top: 5%; 
     box-shadow: 1px 0px 5px 1px $grey; 
     border-radius: 4%;
-}
+    }
 
-.TextBox{
+    .TextBox{
     box-sizing: border-box;
-    // border: 2px blue solid;
     grid-area: textbar;
     padding: 5%; 
+    }
 }
 
 .text2{
@@ -87,7 +103,6 @@
 
 .wrapper{
     box-sizing: border-box;
-    // border: 2px green solid;
     grid-area: vid;
 }
 
@@ -115,17 +130,9 @@ a {
     margin-right: 1vw;
 }
 
-// a {
-//     box-sizing: border-box; 
-//     margin: 1%; 
-//     padding: 1%;
-// }
-
 @media only screen and (min-width: 600px){
 a {
     display: block;
-    // box-sizing: border-box;
-    // border: 2px blue solid;
     padding-top: 15%;
     padding-bottom: 15%;
     padding-left: 5%;
@@ -142,7 +149,6 @@ a{
 
 .footer{
     box-sizing: border-box;
-    // border: 2px black solid;
     grid-area: footbar;
     padding: 2%;
 }
