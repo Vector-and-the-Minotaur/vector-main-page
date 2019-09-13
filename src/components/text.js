@@ -1,5 +1,4 @@
 import React, { Component } from 'react' 
-import TextHeader from './textHeader.js'
 
 
 class Text extends Component {

@@ -15,7 +15,7 @@ function App() {
      <Logo/>
      <Navigation className='nav'/>
      <Text text='Create a custom protocal using the Anki Vector SDK that will allow a Vector Robot to programatically solve a maze.' header='The Project'/>
-     <Video source='assets/blackstarshort.mp4'/>
+     <Video source='assets/vector_vid_small.mp4'/>
      <div className='text2'>
      <Text  text='
      Our goals were to teach Vector to solve a maze, dive into a pre-existing codebase, and learn more about robotics. At the most basic level, he has two checks he has to make to solve the maze. If he sees a face, he will go towards it, then make a left turn. If he sees a blank wall, he will move towards it, then make a right turn.'/>
