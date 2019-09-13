@@ -14,7 +14,7 @@ class NavLink extends Component{
     return(
       <>
       <li className="NavLink">
-        <a href={this.state.link}> {this.state.text} </a>
+        <a href={this.state.link} className="navbarlink"> {this.state.text} </a>
       </li>
       </>
     )
