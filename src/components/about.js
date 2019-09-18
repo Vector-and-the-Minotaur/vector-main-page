@@ -18,7 +18,7 @@ class About extends Component{
                 <Profile
                 className="Aliya"
                 name="Aliya Summers"
-                description="Full stack Python engineer with a strong interest in diversity in tech, teamwork, genre fiction, and strange art projects."
+                description="Full stack Python engineer with a strong interest in diversity in tech, teamwork, scifi and fantasy, and strange art projects."
                 github="https://github.com/arsummers"
                 linkedIn="https://www.linkedin.com/in/aliya-summers/"
                 />
@@ -26,7 +26,7 @@ class About extends Component{
                 <Profile
                 className="Merry"
                 name="Merry Cimakasky"
-                description="Engineer working primarily working in Python and Java knack for problem solving and an appreciate for art."
+                description="Engineer primarily working in Python and Java with a knack for problem solving and an appreciation for art."
                 github="https://github.com/MerrybyPractice"
                 linkedIn="https://www.linkedin.com/in/merrycimakasky/"
                 />
